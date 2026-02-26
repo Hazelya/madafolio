@@ -3,10 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* Pour debug */
+  /*outline: 1px solid red;*/
 }
 
-html {
-    overflow-x : hidden
+html, body {
+  overflow-x: hidden;
 }
 
 body {
