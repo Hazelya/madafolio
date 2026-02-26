@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/carrousel.css"/>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
 
     <script src="js/carrousel.js" defer></script>
 
@@ -103,8 +101,31 @@
                     </li>
                 </ul>
                 <nav class='nav'>
-                    <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-                    <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+                    <button class="btn prev" id="prevBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="url(#believemy-gradient)">
+                            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                            <defs>
+                                <linearGradient id="believemy-gradient">
+                                <stop offset="0%" stop-color="#667eea" />
+                                <stop offset="50%" stop-color="#764ba2" />
+                                <stop offset="100%" stop-color="#f64f59" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+
+                    <button class="btn next" id="nextBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="url(#believemy-gradient)">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            <defs>
+                                <linearGradient id="believemy-gradient">
+                                <stop offset="0%" stop-color="#667eea" />
+                                <stop offset="50%" stop-color="#764ba2" />
+                                <stop offset="100%" stop-color="#f64f59" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
                 </nav>
             </div>
         </div>
